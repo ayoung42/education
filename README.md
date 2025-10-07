@@ -1,6 +1,6 @@
-# Project Title (This is a template README.md file that you can adapt to your project)
+# Education Project
 
-> A brief description of what the project does and its purpose.
+> We are interested in whether there is a relationship between the ACT score and the socioeconomic variables
 
 ---
 
@@ -29,7 +29,7 @@ Provide a short and concise overview of the project. Mention the problem it solv
 ## Data
 
 - **Source:** Link to the data source(s) 
-- **Description:** Brief overview of the dataset features, size, and format
+- **Description:** This project utilizes two data sets EdGap_data.xlsx and ccd_sch_029_1617_w_1a_11212017.csv. The primary data set is the EdGap data set from EdGap.org. This data set from 2016 includes information about average ACT or SAT scores for schools and several socioeconomic characteristics of the school district. The secondary data set is basic information about each school from the National Center for Education Statistics.
 - **License:** (if applicable)
 
 ---
@@ -48,7 +48,7 @@ Include a short discussion of the findings and what they imply.
 
 ## Authors
 
-- Your Name - [@yourhandle](https://github.com/yourhandle)
+- Ahrial Young - [@ayoung42](https://github.com/ayoung42)
 
 ---
 
