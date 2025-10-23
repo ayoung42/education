@@ -27,18 +27,16 @@
 
 ## Data
 
-- **Source:** 
+ **Source:** 
 - EdGap.org
 - https://nces.ed.gov/ccd/elsi/tableGenerator.aspx
 - https://www.dropbox.com/s/lkl5nvcdmwyoban/ccd_sch_029_1617_w_1a_11212017.csv?dl=1 
 
-- **Description:** This project utilizes three data sets EdGap_data.xlsx, ELSI_csv_export_6389666757884058993012.csv and ccd_sch_029_1617_w_1a_11212017.csv.
+ **Description:** This project utilizes three data sets EdGap_data.xlsx, ELSI_csv_export_6389666757884058993012.csv and ccd_sch_029_1617_w_1a_11212017.csv.
 
 - The primary data set is the EdGap data set from EdGap.org. This data set from 2016 includes information about average ACT or SAT scores for schools and several socioeconomic characteristics of the school district.
 - The secondary data set is basic information about each school from the National Center for Education Statistics provided by a Dropbox link.
 - The third data set is from the National Center for Education Statistics and provides information about the student to teacher ratio.
-
-- **License:** 
 
 ---
 
