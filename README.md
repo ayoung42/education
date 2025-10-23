@@ -1,6 +1,6 @@
 # Education Project
 
-> We are interested in whether there is a relationship between the ACT score and socioeconomic variables
+> This notebook explores whether there is a relationship between the ACT score and socioeconomic variables
 
 ---
 
@@ -42,7 +42,13 @@
 
 ## Analysis
 
-There is only one notebook. Each cell should be run in the order presented. After data cleaning steps the notebook will output a cleaned csv to the data folder which can be used separately for other analysis. However, all of my analysis is in this notebook and continues directly after the data cleaning steps.
+There is only one notebook titled "DATA_5100_Education-AY". Each cell should be run in the order presented. After data cleaning steps the notebook will output a cleaned csv to the data folder which can be used separately for other analysis. However, all of my analysis is in this notebook and continues directly after the data cleaning steps.
+
+An overview of the analysis performed:
+- Data was cleaned following best practices. Missing data was imputed so as not to impact the integrity of the socioeconomic factors. It is of note, that seperate from missing values, there is only data from 20 of the 51 U.S. states. This is not an error in the code but reflects that not every state reports their scores to EdGap.
+- A cleaned dataset is output into a csv.
+- Inital exploration was conducted with a correlation matrix which reveals some relationships between the data.
+- Proceed with linear regression analysis. I chose to start with single inputs, make a mulitlinear regression model and end with a reduced model which was then scaled so all factors can be equivalently compared to each other.
 
 ---
 
@@ -69,4 +75,4 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 ## Acknowledgements
 
 - seaborns, sklearn, statsmodels, plotly
--I followed data cleaning and exploration tutorials provided by Dr. Brian Fischer for his DATA 5100 FQ 2025 class. [https://github.com/brian-fischer]
+- I followed data cleaning and exploration tutorials provided by Dr. Brian Fischer for his DATA 5100 FQ 2025 class. [https://github.com/brian-fischer]
